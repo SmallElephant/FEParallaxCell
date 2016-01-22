@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5BA62831C527D4000AF5E1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BA62821C527D4000AF5E1E /* main.m */; };
+		C5BA62861C527D4000AF5E1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BA62851C527D4000AF5E1E /* AppDelegate.m */; };
+		C5BA62891C527D4000AF5E1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BA62881C527D4000AF5E1E /* ViewController.m */; };
+		C5BA628C1C527D4000AF5E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BA628A1C527D4000AF5E1E /* Main.storyboard */; };
+		C5BA628E1C527D4000AF5E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BA628D1C527D4000AF5E1E /* Assets.xcassets */; };
+		C5BA62911C527D4000AF5E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BA628F1C527D4000AF5E1E /* LaunchScreen.storyboard */; };
+		C5BA629C1C527D4000AF5E1E /* FEParallaxCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BA629B1C527D4000AF5E1E /* FEParallaxCellTests.m */; };
+		C5BA62A71C527D4000AF5E1E /* FEParallaxCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BA62A61C527D4000AF5E1E /* FEParallaxCellUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5BA62981C527D4000AF5E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5BA62761C527D4000AF5E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5BA627D1C527D4000AF5E1E;
+			remoteInfo = FEParallaxCell;
+		};
+		C5BA62A31C527D4000AF5E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5BA62761C527D4000AF5E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5BA627D1C527D4000AF5E1E;
+			remoteInfo = FEParallaxCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5BA627E1C527D4000AF5E1E /* FEParallaxCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FEParallaxCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BA62821C527D4000AF5E1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5BA62841C527D4000AF5E1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5BA62851C527D4000AF5E1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5BA62871C527D4000AF5E1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5BA62881C527D4000AF5E1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5BA628B1C527D4000AF5E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5BA628D1C527D4000AF5E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5BA62901C527D4000AF5E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5BA62921C527D4000AF5E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BA62971C527D4000AF5E1E /* FEParallaxCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEParallaxCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BA629B1C527D4000AF5E1E /* FEParallaxCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEParallaxCellTests.m; sourceTree = "<group>"; };
+		C5BA629D1C527D4000AF5E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BA62A21C527D4000AF5E1E /* FEParallaxCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEParallaxCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BA62A61C527D4000AF5E1E /* FEParallaxCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEParallaxCellUITests.m; sourceTree = "<group>"; };
+		C5BA62A81C527D4000AF5E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5BA627B1C527D4000AF5E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BA62941C527D4000AF5E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BA629F1C527D4000AF5E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5BA62751C527D4000AF5E1E = {
+			isa = PBXGroup;
+			children = (
+				C5BA62801C527D4000AF5E1E /* FEParallaxCell */,
+				C5BA629A1C527D4000AF5E1E /* FEParallaxCellTests */,
+				C5BA62A51C527D4000AF5E1E /* FEParallaxCellUITests */,
+				C5BA627F1C527D4000AF5E1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5BA627F1C527D4000AF5E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5BA627E1C527D4000AF5E1E /* FEParallaxCell.app */,
+				C5BA62971C527D4000AF5E1E /* FEParallaxCellTests.xctest */,
+				C5BA62A21C527D4000AF5E1E /* FEParallaxCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5BA62801C527D4000AF5E1E /* FEParallaxCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5BA62841C527D4000AF5E1E /* AppDelegate.h */,
+				C5BA62851C527D4000AF5E1E /* AppDelegate.m */,
+				C5BA62871C527D4000AF5E1E /* ViewController.h */,
+				C5BA62881C527D4000AF5E1E /* ViewController.m */,
+				C5BA628A1C527D4000AF5E1E /* Main.storyboard */,
+				C5BA628D1C527D4000AF5E1E /* Assets.xcassets */,
+				C5BA628F1C527D4000AF5E1E /* LaunchScreen.storyboard */,
+				C5BA62921C527D4000AF5E1E /* Info.plist */,
+				C5BA62811C527D4000AF5E1E /* Supporting Files */,
+			);
+			path = FEParallaxCell;
+			sourceTree = "<group>";
+		};
+		C5BA62811C527D4000AF5E1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5BA62821C527D4000AF5E1E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5BA629A1C527D4000AF5E1E /* FEParallaxCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5BA629B1C527D4000AF5E1E /* FEParallaxCellTests.m */,
+				C5BA629D1C527D4000AF5E1E /* Info.plist */,
+			);
+			path = FEParallaxCellTests;
+			sourceTree = "<group>";
+		};
+		C5BA62A51C527D4000AF5E1E /* FEParallaxCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5BA62A61C527D4000AF5E1E /* FEParallaxCellUITests.m */,
+				C5BA62A81C527D4000AF5E1E /* Info.plist */,
+			);
+			path = FEParallaxCellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5BA627D1C527D4000AF5E1E /* FEParallaxCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BA62AB1C527D4000AF5E1E /* Build configuration list for PBXNativeTarget "FEParallaxCell" */;
+			buildPhases = (
+				C5BA627A1C527D4000AF5E1E /* Sources */,
+				C5BA627B1C527D4000AF5E1E /* Frameworks */,
+				C5BA627C1C527D4000AF5E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FEParallaxCell;
+			productName = FEParallaxCell;
+			productReference = C5BA627E1C527D4000AF5E1E /* FEParallaxCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5BA62961C527D4000AF5E1E /* FEParallaxCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BA62AE1C527D4000AF5E1E /* Build configuration list for PBXNativeTarget "FEParallaxCellTests" */;
+			buildPhases = (
+				C5BA62931C527D4000AF5E1E /* Sources */,
+				C5BA62941C527D4000AF5E1E /* Frameworks */,
+				C5BA62951C527D4000AF5E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5BA62991C527D4000AF5E1E /* PBXTargetDependency */,
+			);
+			name = FEParallaxCellTests;
+			productName = FEParallaxCellTests;
+			productReference = C5BA62971C527D4000AF5E1E /* FEParallaxCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5BA62A11C527D4000AF5E1E /* FEParallaxCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BA62B11C527D4000AF5E1E /* Build configuration list for PBXNativeTarget "FEParallaxCellUITests" */;
+			buildPhases = (
+				C5BA629E1C527D4000AF5E1E /* Sources */,
+				C5BA629F1C527D4000AF5E1E /* Frameworks */,
+				C5BA62A01C527D4000AF5E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5BA62A41C527D4000AF5E1E /* PBXTargetDependency */,
+			);
+			name = FEParallaxCellUITests;
+			productName = FEParallaxCellUITests;
+			productReference = C5BA62A21C527D4000AF5E1E /* FEParallaxCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5BA62761C527D4000AF5E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = FlyElephant;
+				TargetAttributes = {
+					C5BA627D1C527D4000AF5E1E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C5BA62961C527D4000AF5E1E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5BA627D1C527D4000AF5E1E;
+					};
+					C5BA62A11C527D4000AF5E1E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5BA627D1C527D4000AF5E1E;
+					};
+				};
+			};
+			buildConfigurationList = C5BA62791C527D4000AF5E1E /* Build configuration list for PBXProject "FEParallaxCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5BA62751C527D4000AF5E1E;
+			productRefGroup = C5BA627F1C527D4000AF5E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5BA627D1C527D4000AF5E1E /* FEParallaxCell */,
+				C5BA62961C527D4000AF5E1E /* FEParallaxCellTests */,
+				C5BA62A11C527D4000AF5E1E /* FEParallaxCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5BA627C1C527D4000AF5E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BA62911C527D4000AF5E1E /* LaunchScreen.storyboard in Resources */,
+				C5BA628E1C527D4000AF5E1E /* Assets.xcassets in Resources */,
+				C5BA628C1C527D4000AF5E1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BA62951C527D4000AF5E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BA62A01C527D4000AF5E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5BA627A1C527D4000AF5E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BA62891C527D4000AF5E1E /* ViewController.m in Sources */,
+				C5BA62861C527D4000AF5E1E /* AppDelegate.m in Sources */,
+				C5BA62831C527D4000AF5E1E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BA62931C527D4000AF5E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BA629C1C527D4000AF5E1E /* FEParallaxCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BA629E1C527D4000AF5E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BA62A71C527D4000AF5E1E /* FEParallaxCellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5BA62991C527D4000AF5E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5BA627D1C527D4000AF5E1E /* FEParallaxCell */;
+			targetProxy = C5BA62981C527D4000AF5E1E /* PBXContainerItemProxy */;
+		};
+		C5BA62A41C527D4000AF5E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5BA627D1C527D4000AF5E1E /* FEParallaxCell */;
+			targetProxy = C5BA62A31C527D4000AF5E1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5BA628A1C527D4000AF5E1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5BA628B1C527D4000AF5E1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5BA628F1C527D4000AF5E1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5BA62901C527D4000AF5E1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5BA62A91C527D4000AF5E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5BA62AA1C527D4000AF5E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5BA62AC1C527D4000AF5E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FEParallaxCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnblogs.www.FEParallaxCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5BA62AD1C527D4000AF5E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FEParallaxCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnblogs.www.FEParallaxCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5BA62AF1C527D4000AF5E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FEParallaxCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnblogs.www.FEParallaxCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FEParallaxCell.app/FEParallaxCell";
+			};
+			name = Debug;
+		};
+		C5BA62B01C527D4000AF5E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FEParallaxCellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnblogs.www.FEParallaxCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FEParallaxCell.app/FEParallaxCell";
+			};
+			name = Release;
+		};
+		C5BA62B21C527D4000AF5E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FEParallaxCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnblogs.www.FEParallaxCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FEParallaxCell;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5BA62B31C527D4000AF5E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FEParallaxCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnblogs.www.FEParallaxCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FEParallaxCell;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5BA62791C527D4000AF5E1E /* Build configuration list for PBXProject "FEParallaxCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BA62A91C527D4000AF5E1E /* Debug */,
+				C5BA62AA1C527D4000AF5E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BA62AB1C527D4000AF5E1E /* Build configuration list for PBXNativeTarget "FEParallaxCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BA62AC1C527D4000AF5E1E /* Debug */,
+				C5BA62AD1C527D4000AF5E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5BA62AE1C527D4000AF5E1E /* Build configuration list for PBXNativeTarget "FEParallaxCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BA62AF1C527D4000AF5E1E /* Debug */,
+				C5BA62B01C527D4000AF5E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5BA62B11C527D4000AF5E1E /* Build configuration list for PBXNativeTarget "FEParallaxCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BA62B21C527D4000AF5E1E /* Debug */,
+				C5BA62B31C527D4000AF5E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5BA62761C527D4000AF5E1E /* Project object */;
+}
