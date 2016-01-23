@@ -8,6 +8,9 @@ iOS中UITableViewCell视差最简单实用的视差滚动效果
 `-(void)setAdjustOffset:(CGFloat)offset;`
 ###参考链接
 [瀑布流滑动视差](http://oleb.net/blog/2014/05/parallax-scrolling-collectionview/)
+
 [Swift滑动视差](https://blog.krishan711.com/gorgeous-parallax-scrolling-with-uitableviewcells)
+
 [Objective-C滑动视差效果](http://stackoverflow.com/questions/23693422/parallax-scrolling-effect-like-todomovies-3)
+
 [个人博客](http://www.cnblogs.com/xiaofeixiang/)
